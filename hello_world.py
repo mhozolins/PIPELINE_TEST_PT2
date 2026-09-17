@@ -1,1 +1,1 @@
-print("Hello WORLD!!!!!!!!!!!!")
+print("SVEIKA PASAULE !!")
