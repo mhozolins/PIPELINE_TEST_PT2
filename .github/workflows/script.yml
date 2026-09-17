@@ -1,0 +1,17 @@
+name: DEV TO PROD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run:
+    runs-on: self-hosted
+
+    steps:
+      - name: Get repository
+        uses: actions/checkout@v4
+
+      - name: Run Python
+        run: python hello_world.py
